@@ -1,9 +1,8 @@
-import java.io.FileNotFoundException;
-import java.util.Scanner;
+
 
 public class ClassForTestTasks {
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args){
         MathematicalOperations mathematicalOperations = new MathematicalOperations();
         mathematicalOperations.derivationMultiples();
 
