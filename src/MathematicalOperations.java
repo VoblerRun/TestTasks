@@ -35,7 +35,7 @@ public class MathematicalOperations {
         Boolean isCorrectValues = r<=m;
 
         if(isCorrectValues) {
-            System.out.println(getFunctionValue(m, r));
+            System.out.println("Наше искомое значение функции:  " + getFunctionValue(m, r));
         }
 
         return isCorrectValues;
